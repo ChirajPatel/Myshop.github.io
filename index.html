@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>MyShop | Hub For Shopping</title>
+  </head>
+  <body class="bg-dark text-light">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyShop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services" tabindex="-1" aria-disabled="true">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Us
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#aboutmyshop">About MyShop</a></li>
+                    <li><a class="dropdown-item" href="#ourteam">Our Team</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row" id="home">
+      <div class="col-md-12 container">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/welcome.jpg" class="d-block w-100" alt="Welcome">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Welcome</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/food-being-cooked.jpg" class="d-block w-100" alt="food being cooked">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Goal</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/fruits.jpg" class="d-block w-100" alt="fruits">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Shop on Your Hands</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div> 
+    </div>
+
+    <div class="bg-dark" id="services"><br><br><h3 class="text-light text-center">Our Services</h3><br></div>
+
+    <div class="card-group container-fluid bg-dark">
+      <div class="card container bg-dark animation">
+        <img src="./img/watch.jpg" class="card-img-top" alt="watch">
+        <div class="card-body text-center">
+          <h5 class="card-title text-warning">Timely Delevery</h5>
+          <p class="card-text text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, doloremque. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card container bg-dark animation">
+        <img src="./img/money.jpg" class="card-img-top" alt="money">
+        <div class="card-body text-center">
+          <h5 class="card-title text-warning">Discounts</h5>
+          <p class="card-text text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, doloremque. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card container bg-dark animation">
+        <img src="./img/ecommerce.jpg" class="card-img-top" alt="ecommerce">
+        <div class="card-body text-center">
+          <h5 class="card-title text-warning">Payment</h5>
+          <p class="card-text text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, doloremque. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="bg-dark" id="aboutmyshop"><br><br><h3 class="text-light text-center">About MyShop</h3><br></div>
+
+    <div class="row container-fluid">
+      <div class="col-md-6">
+        <div class="card text-center container text-dark animation">
+          <div class="card-header">
+            For All Customers
+          </div>
+          <div class="card-body card-content">
+            <h5 class="card-title text-success"><strong>New Products</strong></h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsum expedita? Necessitatibus facere vitae officiis culpa corrupti nostrum praesentium dolorum! With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-center container text-dark animation">
+          <div class="card-header">
+            For All Customers
+          </div>
+          <div class="card-body card-content">
+            <h5 class="card-title text-success"><strong> Fastival Specials</strong> </h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsum expedita? Necessitatibus facere vitae officiis culpa corrupti nostrum praesentium dolorum! With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row container-fluid">
+      <div class="col-md-6">
+        <div class="card text-center container text-dark animation">
+          <div class="card-header">
+          <strong>For Exclusive Customers Only</strong>
+          </div>
+          <div class="card-body card-content">
+            <h5 class="card-title text-success"><strong> Special Discounts</strong> </h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsum expedita? Necessitatibus facere vitae officiis culpa corrupti nostrum praesentium dolorum! With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-center container text-dark animation">
+          <div class="card-header">
+            For All Customers
+          </div>
+          <div class="card-body card-content">
+            <h5 class="card-title text-success"><strong>Vouchers</strong></h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsum expedita? Necessitatibus facere vitae officiis culpa corrupti nostrum praesentium dolorum! With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="bg-dark" id="ourteam"><br><br><h3 class="text-light text-center">Our Team</h3><br></div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <div class="card mb-3 bg-dark teamcard responsivecard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="./img/chenk.jpg" class="img-fluid rounded-start" alt="chenk">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">Mr.Den</h4>
+                  <h6 class="text-info">Founder, Owner</h6>
+                  <p>Quis consequuntur nihil repellat tempora hic ipsam id, consequatur non incidunt sequi!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3 bg-dark teamcard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="./img/chenk.jpg" class="img-fluid rounded-start" alt="chenk">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">Mr.Chenk</h4>
+                  <h6 class="text-info">Developing, Manager</h6>
+                  <p>Lorem  consectetur adipisicing elit. Quas sint nisi qui praesentium pariatur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mb-3 bg-dark teamcard" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="./img/ansii.jpg" class="img-fluid rounded-start" alt="ansii">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h4 class="card-title text-warning">Mrs. Gency</h4>
+                  <h6 class="text-info">Data Analyst</h6>
+                  <p>Lorem consectetur adipisicing elit. Adipisci consectetur cupiditate vel!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card mb-3 bg-dark teamcard" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="./img/ansii.jpg" class="img-fluid rounded-start" alt="ansii">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h4 class="card-title text-warning">Ms.Anssi</h4>
+                <h6 class="text-info">Frontend Developer, Manager</h6>
+                <p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card mb-3 bg-dark teamcard" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./img/chenk.jpg" class="img-fluid rounded-start" alt="chenk">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h4 class="card-title text-warning">Mr.Nevyu</h4>
+              <h6 class="text-info">Backend Developer, Manager</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
